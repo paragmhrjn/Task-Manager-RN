@@ -6,9 +6,13 @@ A simple and intuitive task manager app built with React Native.
 
 - Add, edit, and delete tasks
 - Mark tasks as complete
-- Categorize tasks with tags
-- Set due dates and reminders
-- Search and filter tasks
+- Live progress bar at the top
+
+## 🛠️ Tech Stack
+
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [Convex](https://convex.dev/) (Real-time backend & database)
 
 ## Prerequisites
 
