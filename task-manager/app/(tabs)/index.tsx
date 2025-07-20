@@ -5,6 +5,7 @@ import useTheme, { ColorScheme } from "@/hooks/useTheme";
 import { createHomeStyles } from "@/assets/styles/home.styles";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { LinearGradient } from "expo-linear-gradient"
+import Header from "@/components/Header";
 
 export default function Index() {
   const { toggleDarkMode, colors } = useTheme()
@@ -16,7 +17,8 @@ export default function Index() {
       <SafeAreaView
         style={homestyles.safeArea}
       >
-        <Text style={homestyles.content}>Edit app/index.tsx to edit this screen.</Text>
+        <Header />
+        
         {/* section enable to toggle on press */}
         <TouchableOpacity onPress={toggleDarkMode}>
           <Text>
