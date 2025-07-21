@@ -31,7 +31,7 @@ const Header = () => {
         </View>
       </View>
 
-      {totalCount > 0 && (
+      
         <View style={homestyles.progressContainer}>
             <View style={homestyles.progressBarContainer}>
                 <View style={homestyles.progressBar}>
@@ -42,7 +42,7 @@ const Header = () => {
                 </View>
             </View>
         </View>
-      )}
+      
     </View>
   )
 }
