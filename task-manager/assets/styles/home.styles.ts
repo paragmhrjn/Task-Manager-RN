@@ -119,10 +119,10 @@ export const createHomeStyles = (colors: ColorScheme) => {
         addButtonDisabled: {
             opacity: 0.5,
         },
-        todoList: {
+        taskList: {
             flex: 1,
         },
-        todoListContent: {
+        taskListContent: {
             paddingHorizontal: 24,
             paddingBottom: 100,
         },
@@ -130,10 +130,11 @@ export const createHomeStyles = (colors: ColorScheme) => {
             flexGrow: 1,
             justifyContent: "center",
         },
-        todoItemWrapper: {
+        taskItemWrapper: {
             marginVertical: 12,
+            marginHorizontal:25
         },
-        todoItem: {
+        taskItem: {
             flexDirection: "row",
             alignItems: "flex-start",
             padding: 20,
@@ -159,17 +160,17 @@ export const createHomeStyles = (colors: ColorScheme) => {
             justifyContent: "center",
             alignItems: "center",
         },
-        todoTextContainer: {
+        taskTextContainer: {
             flex: 1,
         },
-        todoText: {
+        taskText: {
             fontSize: 17,
             lineHeight: 24,
             fontWeight: "500",
             marginBottom: 16,
             color: colors.text,
         },
-        todoActions: {
+        taskActions: {
             flexDirection: "row",
             gap: 12,
         },
