@@ -1,6 +1,6 @@
 
 import { Alert, FlatList, StatusBar, Text, TextInput, TouchableOpacity, View } from "react-native";
-import useTheme, { ColorScheme } from "@/hooks/useTheme";
+import useTheme from "@/hooks/useTheme";
 import { createHomeStyles } from "@/assets/styles/home.styles";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { LinearGradient } from "expo-linear-gradient"
@@ -12,7 +12,6 @@ import LoadingSpinner from "@/components/LoadingSpinner";
 import { Doc, Id } from "@/convex/_generated/dataModel";
 import { Ionicons } from "@expo/vector-icons";
 import EmptyState from "@/components/EmpyState";
-import { deleteTask } from "@/convex/tasks";
 import { useState } from "react";
 
 

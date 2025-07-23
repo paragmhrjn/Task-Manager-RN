@@ -1,6 +1,6 @@
 import { ActivityIndicator, View, Text } from 'react-native'
 import React from 'react'
-import { createHomeStyles } from '@/assets/styles/setting.styles'
+import { createHomeStyles } from '@/assets/styles/home.styles'
 import { LinearGradient } from 'expo-linear-gradient'
 import useTheme from '@/hooks/useTheme'
 import { SafeAreaView } from 'react-native-safe-area-context'
